@@ -50,5 +50,3 @@ Dự án này hướng đến người dùng cá nhân, đặc biệt là các n
 Phiên bản 1.0.0 của phần mềm hiện đang tiếp tục được phát triển với các tính năng mới và cải tiến.
 
 ---
-
-Bạn có thể điều chỉnh nội dung cho phù hợp hơn với phong cách và yêu cầu của bạn! Nếu bạn cần thêm bất kỳ điều gì khác, hãy cho tôi biết.
