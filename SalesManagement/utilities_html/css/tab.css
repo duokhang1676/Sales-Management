@@ -1,0 +1,99 @@
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#wrapper{
+    max-width: 960px;
+    margin: 0px auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    max-width: 960px;
+    margin: 0px auto;
+    text-align: center;
+}
+.logo{
+    max-width: 170px;
+}
+.title{
+    color: black;
+}
+/*Style nav tabs*/
+.tabs{
+    border-bottom: 1px solid #ddd;
+}
+.nav-tabs{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+    border-bottom: 3px solid #ddd;
+}
+.nav-tabs li{
+    margin-right: 10px;
+}
+.nav-tabs li a{
+    display: block;
+    padding: 6px 10px;
+    text-decoration: none;
+    position: relative;
+}
+.nav-tabs li a::after{
+    content: "";
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: -3px;
+    background: transparent;
+}
+.nav-tabs li.active a::after, .nav-tabs li:hover a::after{
+    background: #527871;
+}
+/*Style tab-content*/
+.tab-content{
+    padding: 20px 0px;
+}
+.tab-content-item h2{
+    color: #527871;
+}
+#Sys-rec{
+    font-weight: bold;
+    font-size: 20px;
+}
+#Hard-ware{
+    font-weight: bold;
+    color: #527871;
+    font-size: 15px;
+}
+#Soft-ware{
+    font-weight: bold;
+    color: #527871;
+    font-size: 15px;
+}
+#empl{
+    font-weight: bold;
+    color: #527871;
+    font-size: 15px;
+}
+#manager{
+    font-weight: bold;
+    color: #527871;
+    font-size: 15px;
+}
+footer{
+    margin: 0px auto;
+    text-align: center;
+    background-color: #527871;
+    padding: 35px 0px;
+    /*display: block;*/
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    /*justify-content: space-between;*/
+}
